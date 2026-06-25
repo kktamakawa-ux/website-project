@@ -48,6 +48,17 @@ button {
   cursor: pointer;
   border: none;
 }
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
 /*
 
 NAVIGATION
@@ -209,7 +220,7 @@ HEADER DESCRIPTION
 
 /*
 
-FEATURES
+FEATURES AND SERVICES
 
 */
 
@@ -247,29 +258,111 @@ FEATURES
 
 .services__container{
     display:flex;
-    flex-direct:row;
     flex-wrap:wrap;
+   
    
 }
 
 .services{
     display:flex;
-    flex-direction:row;
     width:calc(100%/3);
-    margin: 16px 16px;
+    align-items:flex-start;
+    padding: 16px 16px;
+    
 }
-.features__logo{
+.services__logo{
     width:40px;
     height:40px;
-  
+   
 }
 
-.features__logo--circle {
+.services__logo--circle {
   display: flex;
   padding: 20px;
   border: 1px solid #e5e7eb;
   border-radius: 500px;
 }
 
+.services__description{
+    margin-left:8px;
+}
 
+.services__description--para {
+  margin-top: 16px;
+  font-size: 16px;
+  max-width: calc(634px / 3);
+  color: rgb(124, 139, 161);
+  line-height: 2;
+  font-weight: 500;
+}
 
+/*
+
+QUALITY WORK
+
+*/
+
+.work__container{
+    display:flex;
+}
+
+.work__container--section{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    align-items:flex-start
+}
+
+.work__container--header{
+    font-weight:400;
+    margin-bottom:24px;
+}
+
+.work__container--title{
+   
+   font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1;
+    margin: 16px 0;
+    letter-spacing: 0.025em
+
+}
+
+.work__container--para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+    margin:24px 0;
+     max-width: 576px;
+}
+
+.work__container--img--wrapper{
+  border-radius: 4px;
+  border: 1px solid rgb(229, 231, 235);
+  position: relative;
+  margin: 0 56px;
+  z-index: 2;
+  display: flex;
+  width:50%;
+
+}
+
+.work__grid{
+  transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  fill: rgb(100, 21, 255);
+  --tw-text-opacity: 1;
+  color: rgba(100, 21, 255, var(--tw-text-opacity));
+  z-index: 0;
+  display: block;
+}
+
+.work__container--img{
+    z-index: 1;
+}

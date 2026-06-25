@@ -14,17 +14,21 @@ a{
 
 .row {
     width:100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin:0 auto;
 }
 
 .container{
-    padding: 96px 0;
+    padding: 80px 0;
 }
 
 img{
     width:100%;
 
+}
+
+.purple{
+    color:#6415ff;
 }
 
 .btn {
@@ -53,6 +57,8 @@ NAVIGATION
 nav{
     padding-top:32px;
     display:flex;
+    justify-content: space-between;
+    align-items:center;
 }
 
 
@@ -154,5 +160,82 @@ li {
 .nav__link--primary:hover{
     background-color: rgba(80, 17, 204);
     color: white;
+}
+
+/*
+HEADER DESCRIPTION
+
+*/
+
+.header__description{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:left;
+    padding: 0 8px;
+
+}
+
+.header__title{
+    margin-bottom: 24px;
+
+}
+
+.header__para{
+    margin: 32px 0;;
+}
+
+
+.header__websites--title{
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
+.header__websites{
+    margin-top:24px;
+}
+
+.header__image{
+    width:60%
+}
+
+
+
+.menu{
+    display:flex;
+}
+
+/*
+
+FEATURES
+
+*/
+
+.features__description{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.features__header{
+
+    font-weight:400;
+    margin-bottom:24px;
+}
+
+.features__title{
+   
+   font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em
+
+.features__para{
+    margin:24px 80px;
 }
 

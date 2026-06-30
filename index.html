@@ -6,6 +6,7 @@
     <title>Module2 Final Project</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4b8d7a65b7.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
   <section id="landing">
@@ -25,6 +26,32 @@
             <li><a href="#" class="nav__link">Login</a></li>
             <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
           </ul>
+      </div>
+      <button class="btn__menu" onclick="openMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="menu__backdrop">
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="menu__links">
+            <li class="menu__list">
+                <a href="#" class="menu__link">About</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link">Blog</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link">Pricing</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link">Contact Us</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link">Login</a>
+            </li>
+            <li><button class="btn">Sign Up</button></li>
+        </ul>
       </div>
     </nav>
     <div class="header__section">
@@ -310,7 +337,7 @@
  <section id="testimonials">
     <div class="container">
         <div class="row">
-            <div class="testimonials__container"></div>
+            <div class="testimonials__container">
                     <img class="testimonials__img" src="./fast-icon.dbb971a73d4805d2fc3bcdacdb55beba (1).svg">
                 <div class="testimonials__description">
                     <div class="section__tag">TESTIMONIALS</div>

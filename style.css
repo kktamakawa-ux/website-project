@@ -1281,7 +1281,18 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         display:block;
     }
 
-   
+   .header__section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+  .header__description{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
+  }
 
    
     .header__description{
@@ -1338,7 +1349,7 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
  }
 
  .steps__list{
-
+    margin-top:120px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -1384,7 +1395,7 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
   }
 
   .value__items--para{
-    padding:8px 132px
+    padding:8px 12px
   }
 
   .plans{
@@ -1398,25 +1409,17 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     display:flex;
     flex-direction:column;
     align-items:center;
+    text-align:center;
   }
 
   .testimonials__description{
-    width:100%;
-
+  width:100%;
+    margin:8px;
   }
 
-  .footer__bottom{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    
-  }
-
-  .footer__logo, 
-  .footer__copyright,
-  .footer__socials{
-    margin-bottom:32px;
-  }
+ .testimonial__bottom{
+    justify-content:center;
+ }
 
   
 }
@@ -1478,6 +1481,32 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     display:flex;
     flex-direction:column;
     align-items:center;
+  }
+
+   .footer__bottom{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+
+.footer__columns{
+    display:flex;
+    flex-wrap:wrap;
+   justify-content:center;
+}
+
+
+.footer__column{
+    width:calc(100%/3);
+    text-align:center;
+}
+
+
+  .footer__logo, 
+  .footer__copyright,
+  .footer__socials{
+    margin-bottom:32px;
   }
 }
 

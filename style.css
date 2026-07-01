@@ -398,8 +398,8 @@ FEATURES AND SERVICES
     
 }
 .services__logo{
-    width:40px;
-    height:40px;
+    width:24px;
+    height:24px;
    
 }
 
@@ -1281,14 +1281,9 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         display:block;
     }
 
-    .header__logo{
-        display:none;
-    }
+   
 
-    .header__image{
-        display:none;
-    }
-
+   
     .header__description{
         width:100%;
         align-items:center;
@@ -1302,32 +1297,94 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     }
 
   
-    .services__container {
+   .services{
+    display:flex;
+    flex-direction:column;
     justify-content: center;
+    align-items: center;
+    text-align:center;
+    width:100%;
+
+  
+   }
+
+   .services__container{
     display:flex;
     flex-direction:column;
     align-items:center;
-  }
+   }
 
+
+   .work__container--section{
+    width:100%;
+    text-align:center;
+    align-items:center;
+   }
+
+  
   .work__container{
     display:flex;
     flex-direction:column;
     align-items:center;
+    text-align:center;
+    
   }
+
+ .steps__items{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+ }
+
+ .steps__list{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0;
+ }
+ .steps__items--number{
+    margin-bottom: 16px;
+ }
 
   .steps__container{
     display:flex;
     flex-direction:column;
+    align-items:center;
   }
 
   .values__container{
     display:flex;
     flex-direction:column;
+    width:100%;
   }
+
 
   .values__description{
     justify-content: center;
     align-items:center;
+    width:100%;
+    text-align:center;
+    
+  }
+  .values__menu{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+  }
+
+  .values__list{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+
+  .value__items--para{
+    padding:8px 132px
   }
 
   .plans{
@@ -1342,6 +1399,26 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     flex-direction:column;
     align-items:center;
   }
+
+  .testimonials__description{
+    width:100%;
+
+  }
+
+  .footer__bottom{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+
+  .footer__logo, 
+  .footer__copyright,
+  .footer__socials{
+    margin-bottom:32px;
+  }
+
+  
 }
 
 
@@ -1355,10 +1432,27 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     .btn__menu{
         display:block;
     }
-
+    .section__title {
+        font-size:32px;
+        font-weight:700;
+        
+    }
      .header__email {
     flex-direction: column;
     height: auto;
+  }
+
+  .header__section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+  .header__description{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
   }
     
     .header__email--input {
